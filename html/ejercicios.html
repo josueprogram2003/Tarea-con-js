@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/js.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <input type="text" class="caja" id="numero" onkeyup="mensaje()"> -->
+        <input type="text" class="caja" id="numero1" placeholder="Numero1">
+        <select name="operacion" id="operacion" class="caja">
+            <option value="0">Seleccionar Operación</option>
+            <option value="1">Par-Impar</option>
+            <option value="2">Primo-No primo</option>
+            <option value="3">Factorial</option>
+            <option value="4">Raiz cubica</option>
+        </select>
+        <button class="boton" onclick="daforma()" id="bo">Calcular</button>
+        <input type="text" class="caja" id="resultado" placeholder="Resultado" disabled>
+    </div>
+    <script src="/js/ejercicios.js"></script>
+</body>
+</html>
